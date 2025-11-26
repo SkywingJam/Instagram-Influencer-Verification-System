@@ -38,7 +38,7 @@ As the **Technical Lead**, I orchestrated the end-to-end development lifecycle, 
 * **Data Integrity:** Designed a robust Database Schema (Prisma/SQLite) featuring a **Snapshot Pattern** to preserve historical applicant data against updates.
 * **Security Protocols:** Established comprehensive security standards for authentication (JWT), file uploads, and API communications to mitigate OWASP Top 10 vulnerabilities.
 
-[Insert System Design Diagram Here]
+![deployment](assests/deployment.png)
 
 ### Backend Engineering (Node.js + Express)
 
@@ -53,16 +53,16 @@ As the **Technical Lead**, I orchestrated the end-to-end development lifecycle, 
 * **Distributed Task Queue:** Implemented **Celery + Redis** to manage asynchronous inference tasks, preventing request timeouts and ensuring system responsiveness under load.
 * **LLM Integration:** Integrated **Qwen-VL-Plus** and **Gemini** models for "Deep Dive" analysis.
 * **Prompt Engineering:** Refined prompts to minimize hallucination and maximize information density in generated influencer reports.
-
-[Insert AI Deep Dive Gif Here]
+  ![llm](assests/llm.gif)
 
 ### Frontend Development (React + TypeScript)
 
 * **Interactive UI:** Developed the "AI Deep Dive" interface and real-time status visualizations using **React 18**.
 * **Data Visualization:** Implemented dynamic charts to render influencer metrics and engagement trends.
 * **State Management:** Consolidated complex frontend logic to handle asynchronous data fetching and real-time updates from the backend.
-
-[Insert UI Screenshot Here]
+  ![upload](assests/upload.png)
+  ![admin](assests/admin.png)
+  ![detail](assests/detail.png)
 
 ### DevOps, CI/CD & Observability
 
@@ -70,8 +70,9 @@ As the **Technical Lead**, I orchestrated the end-to-end development lifecycle, 
 * **Full Observability Stack:** Deployed a complete monitoring solution using **Prometheus** (metrics), **Grafana** (visualization), **Loki** (logs), and **Promtail**, ensuring production-grade visibility.
 * **Automated Testing:** Established a rigorous testing culture with **Jest**. Achieved **>85% statement coverage** (1018/1195 statements) with 778+ test cases.
 * **CI/CD Pipelines:** Configured GitHub Actions for automated testing, linting, and build verification.
-
-[Insert Coverage Report and Grafana Dashboard Screenshots Here]
+  ![docker](assests/docker.png)
+  ![coverage](assests/coverage.png)
+  ![grafana](assests/grafana.png)
 
 ### Agile Leadership
 
@@ -81,17 +82,19 @@ As the **Technical Lead**, I orchestrated the end-to-end development lifecycle, 
 
 ## Development Logs
 
-[Insert Commit Logs / Contribution Graph Screenshot]*
+![Contribution](assests/contribution.png)
+![Action](assests/action.png)
 
 ## Outcome
 
 The system received high praise from both the University teaching team and the client for its architectural maturity and completeness.
 
-[Insert Final Presentation Canvas Score / Feedback Screenshot]
+![score](assests/score.png)
+![rubric](assests/rubric.png)
 
-You can check out the final presentation recording here:
+You can check out the final presentation recording here (Link to YouTube):
 
-[Insert Youtube Video Here]
+[![Final Presentation Recording](https://img.youtube.com/vi/gl4OnjhNrPg/0.jpg)](https://youtu.be/gl4OnjhNrPg)
 
 ## Tech Stack
 
