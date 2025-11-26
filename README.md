@@ -9,6 +9,9 @@
 > ❗️ **Academic Context:** This project was developed as a Capstone Software Project at the University of Melbourne, in collaboration with Dr. Brent Coker.
 >
 > ❗️ **Status:** The system is a production-ready prototype delivered to the client for future integration.
+>
+> ❗️ **Data Privacy:** All user data and metrics shown in screenshots are either **synthetic/mock data** or sourced from **publicly available profiles** (e.g., public figures) for demonstration purposes only. No private client data or real applicant information is disclosed.
+
 
 We developed an **AI-driven Instagram Influencer Verification System** for **Wear Cape**. Designed to integrate seamlessly into the influencer registration workflow, this tool automates the assessment of account performance, generating a comprehensive quality score (0–100) and identifying potential red flags. By leveraging advanced LLMs and heuristic analysis, it provides actionable AI insights, significantly streamlining the vetting process for admin users.
 
