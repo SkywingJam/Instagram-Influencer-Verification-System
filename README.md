@@ -97,7 +97,7 @@ The system received high praise from both the University teaching team and the c
 
 You can check out the final presentation recording here (Link to YouTube), I'm the last speaker:
 
-[![Final Presentation Recording](https://img.youtube.com/vi/gl4OnjhNrPg/0.jpg)](https://youtu.be/gl4OnjhNrPg)
+[![Final Presentation Recording](https://img.youtube.com/vi/gl4OnjhNrPg/maxresdefault.jpg)](https://youtu.be/gl4OnjhNrPg)
 
 ## Tech Stack
 
