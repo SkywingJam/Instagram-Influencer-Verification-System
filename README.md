@@ -38,11 +38,12 @@ As the **Technical Lead**, I orchestrated the end-to-end development lifecycle, 
 
 ### System Architecture & Design
 
+* **Architecture & UML Design:** Architected a decoupled microservices system. Produced comprehensive UML diagrams, sequence diagrams, and API documentation to guide the engineering team and ensure independent scalability.
 * **Microservices Architecture:** Architected a decoupled system separating the Frontend, Backend, and ML services to ensure independent scalability.
-* **Data Integrity:** Designed a robust Database Schema (Prisma/SQLite) featuring a **Snapshot Pattern** to preserve historical applicant data against updates.
+* **Data Integrity:** Designed a robust Database Schema (Prisma/SQLite/SQL) featuring a **Snapshot Pattern** to preserve historical applicant data against updates.
 * **Security Protocols:** Established comprehensive security standards for authentication (JWT), file uploads, and API communications to mitigate OWASP Top 10 vulnerabilities.
 
-![deployment](assests/deployment.png)
+![deployment](assets/deployment.png)
 
 ### Backend Engineering (Node.js + Express)
 
@@ -57,26 +58,26 @@ As the **Technical Lead**, I orchestrated the end-to-end development lifecycle, 
 * **Distributed Task Queue:** Implemented **Celery + Redis** to manage asynchronous inference tasks, preventing request timeouts and ensuring system responsiveness under load.
 * **LLM Integration:** Integrated **Qwen-VL-Plus** and **Gemini** models for "Deep Dive" analysis.
 * **Prompt Engineering:** Refined prompts to minimize hallucination and maximize information density in generated influencer reports.
-  ![llm](assests/llm.gif)
+  ![llm](assets/llm.gif)
 
 ### Frontend Development (React + TypeScript)
 
 * **Interactive UI:** Developed the "AI Deep Dive" interface and real-time status visualizations using **React 18**.
 * **Data Visualization:** Implemented dynamic charts to render influencer metrics and engagement trends.
 * **State Management:** Consolidated complex frontend logic to handle asynchronous data fetching and real-time updates from the backend.
-  ![upload](assests/upload.png)
-  ![admin](assests/admin.png)
-  ![detail](assests/detail.png)
+  ![upload](assets/upload.png)
+  ![admin](assets/admin.png)
+  ![detail](assets/detail.png)
 
 ### DevOps, CI/CD & Observability
 
 * **Containerization:** Dockerized the entire stack (Frontend, Backend, ML Service, Workers, Redis) using **Docker Compose** for consistent deployment across environments.
 * **Full Observability Stack:** Deployed a complete monitoring solution using **Prometheus** (metrics), **Grafana** (visualization), **Loki** (logs), and **Promtail**, ensuring production-grade visibility.
-* **Automated Testing:** Established a rigorous testing culture with **Jest**. Achieved **>85% statement coverage** (1018/1195 statements) with 778+ test cases.
+* **Automated Testing:** Established a rigorous testing culture and formulated comprehensive test plans using **Jest**. Achieved **>85% statement coverage** (1018/1195 statements) with 778+ test cases, ensuring high engineering standards.
 * **CI/CD Pipelines:** Configured GitHub Actions for automated testing, linting, and build verification.
-  ![docker](assests/docker.png)
-  ![coverage](assests/coverage.png)
-  ![grafana](assests/grafana.png)
+  ![docker](assets/docker.png)
+  ![coverage](assets/coverage.png)
+  ![grafana](assets/grafana.png)
 
 ### Agile Leadership
 
@@ -86,15 +87,15 @@ As the **Technical Lead**, I orchestrated the end-to-end development lifecycle, 
 
 ## Development Logs
 
-![Contribution](assests/contribution.png)
-![Action](assests/action.png)
+![Contribution](assets/contribution.png)
+![Action](assets/action.png)
 
 ## Outcome
 
 The system received high praise from both the University teaching team and the client for its architectural maturity and completeness.
 
-![score](assests/score.png)
-![rubric](assests/rubric.png)
+![score](assets/score.png)
+![rubric](assets/rubric.png)
 
 You can check out the final presentation recording here (Click on the Thumbnail to watch on YouTube), I'm the last speaker:
 
