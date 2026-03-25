@@ -7,7 +7,7 @@
 >
 > ❗️ **NDA Protected:** This repository **DOES NOT** contain source code or runnable binaries due to Non-Disclosure Agreements with the client.
 >
-> ❗️ **Academic Context:** This project was developed as a Capstone Software Project at the University of Melbourne, in collaboration with Dr. Brent Coker.
+> ❗️ **Context:** This project was developed as a Capstone Software Project at the University of Melbourne, in collaboration with Dr. Brent Coker.
 >
 > ❗️ **Status:** The system is a production-ready prototype delivered to the client for future integration.
 >
